@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(194,24,91);
+    background: linear-gradient(0deg, rgba(194,24,91,1) 0%, rgba(255,255,255,1) 90%);
+}
+
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h2{
+    text-align: center; /*Supaya header2 ada di tengah*/
+    color: black;
+    font-size: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse; /*Supaya tulisan yang ada di dalam tabel satu deret*/
+}
+
+  img{
+    width: 170px;
+    height: auto;
+  }
+
+  th,td {
+    padding: 12px 15px;
+    color: black;
+    text-align: center; /*Supaya isi tabel berada di tengah*/
+    border-bottom: 0px solid white; /*Membuat garis horizontal*/
+  }
+
+  th{
+    background: white; /*Memberi warna pada sub judul*/
+  }
+
+  tr:nth-child(odd){
+    background-color: #eeeeee;
+  }
